@@ -9,9 +9,8 @@ class Calculator:
         return branch / divide
     def modulo(self, x, y):
         return x%y
-    def power(self, a, b):
-        return a ** b
-
+    def power(self, aku, keren):
+        return aku ** keren
 if __name__ == "__main__":
     calc = Calculator()
     print("Addition: ", calc.add(10, 5))
