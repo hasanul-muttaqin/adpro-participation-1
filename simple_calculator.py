@@ -3,8 +3,8 @@ class Calculator:
         return a + b
     def subtract(self, a, b):
         return a - b
-    def multiply(self, a, b):
-        return a * b
+    def multiply(self, var1, var2):
+        return var1 * var2
     def divide(self, a, b):
         return a / b
     def modulo(self, a, b):
