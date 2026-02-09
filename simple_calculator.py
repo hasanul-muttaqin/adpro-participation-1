@@ -1,16 +1,17 @@
 class Calculator:
     def add(self, angka1, angka2):
         return angka1 + angka2
-    def subtract(self, a, b):
-        return a - b
+    def subtract(self, branch, subtract):
+        return branch - subtract
     def multiply(self, a, b):
         return a * b
     def divide(self, a, b):
         return a / b
-    def modulo(self, a, b):
-        return a % b
+    def modulo(self, x, y):
+        return x%y
     def power(self, a, b):
         return a ** b
+
 if __name__ == "__main__":
     calc = Calculator()
     print("Addition: ", calc.add(10, 5))
