@@ -1,6 +1,6 @@
 class Calculator:
-    def add(self, a, b):
-        return a + b
+    def add(self, angka1, angka2):
+        return angka1 + angka2
     def subtract(self, a, b):
         return a - b
     def multiply(self, a, b):
