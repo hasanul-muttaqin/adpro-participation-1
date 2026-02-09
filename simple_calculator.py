@@ -1,10 +1,10 @@
 class Calculator:
-    def add(self, a, b):
-        return a + b
+    def add(self, angka1, angka2):
+        return angka1 + angka2
     def subtract(self, branch, subtract):
         return branch - subtract
-    def multiply(self, a, b):
-        return a * b
+    def multiply(self, var1, var2):
+        return var1 * var2
     def divide(self, branch, divide):
         return branch / divide
     def modulo(self, x, y):
