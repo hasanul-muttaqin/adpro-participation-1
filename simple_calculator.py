@@ -7,10 +7,11 @@ class Calculator:
         return a * b
     def divide(self, a, b):
         return a / b
-    def modulo(self, a, b):
-        return a % b
+    def modulo(self, x, y):
+        return x%y
     def power(self, a, b):
         return a ** b
+
 if __name__ == "__main__":
     calc = Calculator()
     print("Addition: ", calc.add(10, 5))
